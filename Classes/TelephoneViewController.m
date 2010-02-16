@@ -10,6 +10,52 @@
 
 @implementation TelephoneViewController
 
+@synthesize sentenceLabel;
+@synthesize sentenceText;
+
+- (IBAction) sendSentence {
+	sentenceLabel.text = sentenceText.text;
+}
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+	// When the user presses return, take focus away from the text field so that the keyboard is dismissed.
+	
+	[self sendSentence];
+	[sentenceText resignFirstResponder];
+	
+	return YES;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range 
+ replacementText:(NSString *)text
+{
+    // Any new character added is passed in as the "text" parameter
+    if ([text isEqualToString:@"\n"]) {
+        // Be sure to test for equality using the "isEqualToString" message
+       	[self sendSentence];
+		[textView resignFirstResponder];
+		
+        // Return FALSE so that the final '\n' character doesn't get added
+        return FALSE;
+    }
+    // For any other character return TRUE so that the text gets added to the view
+    return TRUE;
+}
+
+
+#pragma mark -
+#pragma mark Sentence Handling
+
+- (void) showSentence:(NSString *)theSentence {
+	sentenceLabel.text = theSentence;
+}
+
+- (void) hideSentence {
+	sentenceLabel.text = nil;
+}
+
+
 
 
 /*
@@ -22,19 +68,16 @@
 }
 */
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	[self showSentence:@"The quick brown fox did jump."];
+	[self performSelector:@selector(hideSentence) withObject:nil afterDelay:2];
 }
-*/
+
 
 
 /*

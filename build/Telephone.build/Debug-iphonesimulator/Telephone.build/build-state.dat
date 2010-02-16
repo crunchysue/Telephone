@@ -1,7 +1,7 @@
 TTelephone
 v7
 r0
-t287965175.031696
+t287973991.554578
 cCheck dependencies
 cProcessInfoPlistFile /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Info.plist Telephone-Info.plist
 cCompileXIB /Users/sue/Documents/iDev/Bump/Telephone/MainWindow.xib
@@ -220,15 +220,15 @@ i"TelephoneAppDelegate.h"
 i"TelephoneViewController.h"
 
 N/Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.h
-c000000004B79C2F800000000000000F0
-t1266270968
-s240
+c000000004B79EAE60000000000000208
+t1266281190
+s520
 i<UIKit/UIKit.h>
 
 N/Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m
-c000000004B79C2F800000000000005BB
-t1266270968
-s1467
+c000000004B79EBAD0000000000000A36
+t1266281389
+s2614
 i"TelephoneViewController.h"
 
 N/Users/sue/Documents/iDev/Bump/Telephone/MainWindow.xib
@@ -237,9 +237,9 @@ t1266270968
 s9836
 
 N/Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib
-c000000004B79C4660000000000004668
-t1266271334
-s18024
+c000000004B79EA970000000000005A0A
+t1266281111
+s23050
 
 N/Users/sue/Documents/iDev/Bump/Telephone/Telephone_Prefix.pch
 c000000004B79C2F800000000000000BB
@@ -249,11 +249,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app
-t1266271877
+t1266281191
 s1054
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app.dSYM
-t1266271877
+t1266281191
 s102
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/BumpApiPopup.nib
@@ -289,12 +289,12 @@ t1266271184
 s8
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone
-t1266271877
-s19488
+t1266281191
+s21104
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/TelephoneViewController.nib
-t1266271340
-s1241
+t1266281115
+s1809
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/bump_button_blue.png
 t1266271184
@@ -382,12 +382,12 @@ t1266271877
 s419
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneAppDelegate.o
-t1266271187
-s41160
+t1266281191
+s42908
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneViewController.o
-t1266271187
-s32744
+t1266281191
+s41784
 
 N/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/main.o
 t1266271187
@@ -415,7 +415,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies287965175#287965175#0(0"0(0#1#0"4300903632#0"0#
+lSLF07#2@18"Check dependencies287973991#287973991#0(0"0(0#1#0"4300903632#0"0#
 
 CCompileC build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/GameBumpConnector.o /Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s287964631.960806
@@ -438,8 +438,8 @@ o/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m:233: warni
 lSLF07#2@76"Compile /Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m287964631#287964632#0(995"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m: In function '-[GameBumpConnector bumpDidDisconnect:]':/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m:179: warning: unused variable 'alertText'/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m: In function '-[GameBumpConnector bumpConnectFailed:]':/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m:210: warning: unused variable 'alertText'/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m: At top level:/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m:233: warning: property 'bumpFourGame' requires method '-bumpFourGame' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m:233: warning: property 'bumpFourGame' requires the method 'setBumpFourGame:' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@27"Unused variable 'alertText'287964632#125#111#0(6@68"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m287964630#179#0#179#0#19"unused variable '*'0(22@27"Unused variable 'alertText'287964632#361#111#0(6@68"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m287964630#210#0#210#0#19"unused variable '*'0(23@13"At top level:287964632#472#84#0(6@68"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m287964630#0#0#0#0#0"0(22@132"Property 'bumpFourGame' requires method '-bumpFourGame' to be defined - use @synthesize, @dynamic or provide a method implementation287964632#556#216#0(6@68"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m287964630#233#0#233#0#0"0(22@139"Property 'bumpFourGame' requires the method 'setBumpFourGame:' to be defined - use @synthesize, @dynamic or provide a method implementation287964632#772#223#0(6@68"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m287964630#233#0#233#0#0"0(0#0#68"/Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m4300903632#2015"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-generated-files.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-own-target-headers.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-all-target-headers.hmap -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-project-headers.hmap -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -I/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/include -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources/i386 -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources -include /var/folders/tE/tEqmWn6lFvCQzf4Ag6uULU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Telephone_Prefix-gytcthtxhnggvdaxiwirbisteftd/Telephone_Prefix.pch -c /Users/sue/Documents/iDev/Bump/Telephone/Classes/GameBumpConnector.m -o /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/GameBumpConnector.o0#
 
 CCompileC build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneAppDelegate.o /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s287963987.371761
-e287963987.558088
+s287973991.404574
+e287973991.501263
 r1
 xCompileC
 xbuild/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneAppDelegate.o
@@ -448,11 +448,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m287963987#287963987#0(0"0(0#0#71"/Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m4300903632#2021"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-generated-files.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-own-target-headers.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-all-target-headers.hmap -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-project-headers.hmap -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -I/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/include -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources/i386 -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources -include /var/folders/tE/tEqmWn6lFvCQzf4Ag6uULU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Telephone_Prefix-gytcthtxhnggvdaxiwirbisteftd/Telephone_Prefix.pch -c /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m -o /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneAppDelegate.o0#
+lSLF07#2@79"Compile /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m287973991#287973991#0(0"0(0#0#71"/Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m4300903632#2021"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-generated-files.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-own-target-headers.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-all-target-headers.hmap -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-project-headers.hmap -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -I/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/include -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources/i386 -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources -include /var/folders/tE/tEqmWn6lFvCQzf4Ag6uULU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Telephone_Prefix-gytcthtxhnggvdaxiwirbisteftd/Telephone_Prefix.pch -c /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneAppDelegate.m -o /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneAppDelegate.o0#
 
 CCompileC build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneViewController.o /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s287963987.555861
-e287963987.643311
+s287973991.405878
+e287973991.499466
 r1
 xCompileC
 xbuild/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneViewController.o
@@ -461,7 +461,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m287963987#287963987#0(0"0(0#0#74"/Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m4300903632#2027"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-generated-files.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-own-target-headers.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-all-target-headers.hmap -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-project-headers.hmap -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -I/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/include -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources/i386 -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources -include /var/folders/tE/tEqmWn6lFvCQzf4Ag6uULU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Telephone_Prefix-gytcthtxhnggvdaxiwirbisteftd/Telephone_Prefix.pch -c /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m -o /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneViewController.o0#
+lSLF07#2@82"Compile /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m287973991#287973991#0(0"0(0#0#74"/Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m4300903632#2027"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-generated-files.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-own-target-headers.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-all-target-headers.hmap -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-project-headers.hmap -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -I/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/include -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources/i386 -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources -include /var/folders/tE/tEqmWn6lFvCQzf4Ag6uULU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Telephone_Prefix-gytcthtxhnggvdaxiwirbisteftd/Telephone_Prefix.pch -c /Users/sue/Documents/iDev/Bump/Telephone/Classes/TelephoneViewController.m -o /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/TelephoneViewController.o0#
 
 CCompileC build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/main.o /Users/sue/Documents/iDev/Bump/Telephone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s287963987.370353
@@ -529,12 +529,12 @@ x/Users/sue/Documents/iDev/Bump/Telephone/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib287963984#287963984#0(0"0(0#0#55"/Users/sue/Documents/iDev/Bump/Telephone/MainWindow.xib4300903632#550"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/MainWindow.nib /Users/sue/Documents/iDev/Bump/Telephone/MainWindow.xib0#
 
 CCompileXIB /Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib
-s287964140.363848
-e287964140.663603
+s287973914.900637
+e287973915.233604
 r1
 xCompileXIB
 x/Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib
-lSLF07#2@38"CompileXIB TelephoneViewController.xib287964140#287964140#0(0"0(0#0#68"/Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib4300903632#576"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/TelephoneViewController.nib /Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib0#
+lSLF07#2@38"CompileXIB TelephoneViewController.xib287973914#287973915#0(0"0(0#0#68"/Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib4300903632#576"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/TelephoneViewController.nib /Users/sue/Documents/iDev/Bump/Telephone/TelephoneViewController.xib0#
 
 CCpResource build/Debug-iphonesimulator/Telephone.app/bump_button_blue.png Bump_Resources/bump_button_blue.png
 s287963984.739666
@@ -708,23 +708,23 @@ xBump_Resources/bump_yes_button.png
 lSLF07#2@39"Copy Bump_Resources/bump_yes_button.png287963984#287963984#0(0"0(0#0#75"/Users/sue/Documents/iDev/Bump/Telephone/Bump_Resources/bump_yes_button.png4300903632#548"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sue/Documents/iDev/Bump/Telephone/Bump_Resources/bump_yes_button.png /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app0#
 
 CGenerateDSYMFile /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app.dSYM /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone
-s287964677.156679
-e287964677.224825
+s287973991.527467
+e287973991.551386
 r1
 xGenerateDSYMFile
 x/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app.dSYM
 x/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Telephone.app.dSYM build/Debug-iphonesimulator/Telephone.app/Telephone287964677#287964677#0(0"0(0#0#92"/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone4300903632#457"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone -o /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Telephone.app.dSYM build/Debug-iphonesimulator/Telephone.app/Telephone287973991#287973991#0(0"0(0#0#92"/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone4300903632#457"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone -o /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app.dSYM0#
 
 CLd /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone normal i386
-s287964677.128402
-e287964677.156562
+s287973991.501343
+e287973991.527361
 r1
 xLd
 x/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone
 xnormal
 xi386
-lSLF07#2@97"Link /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone287964677#287964677#0(0"0(0#0#0"4300903632#994"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -L/Users/sue/Documents/iDev/Bump/Telephone -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -filelist /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/Telephone.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lBump -o /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone0#
+lSLF07#2@97"Link /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone287973991#287973991#0(0"0(0#0#0"4300903632#994"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -L/Users/sue/Documents/iDev/Bump/Telephone -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -filelist /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Objects-normal/i386/Telephone.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lBump -o /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Telephone0#
 
 CProcessInfoPlistFile /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app/Info.plist Telephone-Info.plist
 s287963984.224193
@@ -749,10 +749,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile Telephone_Prefix.pch287963986#287963987#0(0"0(0#0#61"/Users/sue/Documents/iDev/Bump/Telephone/Telephone_Prefix.pch4300903632#1869"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-generated-files.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-own-target-headers.hmap -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-all-target-headers.hmap -iquote /Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/Telephone-project-headers.hmap -F/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator -I/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/include -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources/i386 -I/Users/sue/Documents/iDev/Bump/Telephone/build/Telephone.build/Debug-iphonesimulator/Telephone.build/DerivedSources -c /Users/sue/Documents/iDev/Bump/Telephone/Telephone_Prefix.pch -o /var/folders/tE/tEqmWn6lFvCQzf4Ag6uULU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Telephone_Prefix-gytcthtxhnggvdaxiwirbisteftd/Telephone_Prefix.pch.gch0#
 
 CTouch /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app
-s287964677.224918
-e287964677.290419
+s287973991.551487
+e287973991.554529
 r1
 xTouch
 x/Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app
-lSLF07#2@88"Touch /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app287964677#287964677#0(0"0(0#0#0"4300903632#346"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app0#
+lSLF07#2@88"Touch /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app287973991#287973991#0(0"0(0#0#0"4300903632#346"    cd /Users/sue/Documents/iDev/Bump/Telephone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/sue/Documents/iDev/Bump/Telephone/build/Debug-iphonesimulator/Telephone.app0#
 

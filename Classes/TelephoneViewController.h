@@ -9,8 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface TelephoneViewController : UIViewController {
-
+	IBOutlet UILabel *sentenceLabel;
+	IBOutlet UITextView *sentenceText;
 }
+
+@property (nonatomic, retain) UILabel * sentenceLabel;
+@property (nonatomic, retain) UITextView * sentenceText;
+
+- (IBAction) sendSentence;
+- (void) showSentence:(NSString *)theSentence;
+- (void) hideSentence;
 
 @end
 
